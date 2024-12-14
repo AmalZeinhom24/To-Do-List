@@ -1,0 +1,23 @@
+{
+  "appTitle": "قائمة المهام اليومية",
+  "english": "اللغه الإنجليزية",
+  "arabic": "اللغه العربية",
+  "language": "اللغه",
+  "mode": "السمات",
+  "light": "فاتح",
+  "dark": "داكن",
+  "tasks": "المهام",
+   "settings": "الإعدادات",
+   "addNewTask": "إضافة مهمة جديدة",
+   "taskTitle": "عنوان المهمة",
+   "taskDescription": "تفاصيل المهمة",
+   "selectDate": "اختر التاريخ",
+   "addTask": "إضافةالمهمة",
+   "account": "الحساب",
+   "help": "المساعدة",
+   "notifications": "الإشعارات",
+   "accountName": "أمل نصر",
+   "personalInfo": "المعلومات الشخصية",
+   "off": "غير مفعل",
+   "on": "مفعل"
+}

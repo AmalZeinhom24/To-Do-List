@@ -1,0 +1,23 @@
+{
+ "appTitle": "To Do List",
+ "english": "English",
+  "arabic": "Arabic",
+  "language": "Language",
+  "mode": "Mode",
+  "light": "Light",
+  "dark": "Dark",
+  "tasks": "Tasks",
+  "settings": "Settings",
+  "addNewTask": "Add New Task",
+  "taskTitle": "Task Title",
+  "taskDescription": "Task Description",
+  "selectDate": "Select Date",
+  "addTask": "Add Task",
+  "account": "Account",
+  "help": "Help",
+  "notifications": "Notifications",
+  "accountName": "Amal Nasr",
+  "personalInfo": "Personal Info",
+  "off": "Off",
+  "on": "On"
+}
