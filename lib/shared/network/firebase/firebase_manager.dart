@@ -70,6 +70,10 @@ class FirebaseManager {
     getTasksCollection().doc(taskId).update({"isDone": isDone});
   }
 
+  static Future<void> editTask(TaskModel taskModel) async {
+    await getTasksCollection().doc(taskModel.id).update(taskModel.toJson());
+  }
+
   static Future<void> createAccount(String email, String password, String name,
       Function onSuccess, Function onError) async {
     try {
@@ -117,4 +121,6 @@ class FirebaseManager {
       }*/
     }
   }
+
+
 }

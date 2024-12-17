@@ -49,6 +49,7 @@ dependencies:
   flutter_settings_screens: ^0.3.4
   shared_preferences: ^2.2.1
   ionicons: ^0.2.2
+  confetti: ^0.8.0
 
 
 dev_dependencies:

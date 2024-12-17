@@ -7,13 +7,20 @@ import 'package:todo/shared/styles/colors.dart';
 import 'package:todo/shared/styles/fade_animation.dart';
 import 'package:todo/shared/styles/fade_animation.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
   static const String routeName = "login";
 
   LoginScreen({super.key});
 
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
   var _formKey = GlobalKey<FormState>();
+
   var emailController = TextEditingController();
+
   var passwordController = TextEditingController();
 
   @override
@@ -215,20 +222,11 @@ class LoginScreen extends StatelessWidget {
                                   Color.fromRGBO(143, 148, 251, .6)
                                 ])),
                             child: Center(
-                              child: InkWell(
-                                onTap: () async {
-                                  SharedPreferences pref = await SharedPreferences.getInstance();
-                                  pref.setString("email", "useremail@gmail.com");
-                                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_){
-                                    return HomeLayout();
-                                  }));
-                                },
-                                child: Text(
-                                  "Login",
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                              child: Text(
+                                "Login",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
                           ),

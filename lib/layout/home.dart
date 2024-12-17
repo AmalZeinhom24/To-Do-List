@@ -1,9 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:todo/screens/settings/settings_tab.dart';
 import 'package:todo/screens/tasks/tasks_tab.dart';
-import 'package:todo/shared/styles/colors.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../screens/tasks/add_task_bottom_sheet.dart';

@@ -74,13 +74,13 @@ class MyProvider extends ChangeNotifier {
     }
   }
 
-  String? getLangyage() {
+  String? getLanguage() {
     return sharedPref!.getString('language');
   }
 
   Future<void> loadLanguageData() async {
     sharedPref = await SharedPreferences.getInstance();
-    String? oldLanguage = getLangyage();
+    String? oldLanguage = getLanguage();
     if (oldLanguage != null) {
       currentLocal = oldLanguage;
     }

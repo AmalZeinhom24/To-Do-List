@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:todo/provider/my_provider.dart';
 import 'package:todo/screens/login/login.dart';
@@ -26,7 +24,7 @@ class _SplashScareenState extends State<SplashScareen> {
     var pro = Provider.of<MyProvider>(context);
     return Scaffold(
       body: Container(
-        color: pro.isDarkMode? Color(0xFF060E1E) : mintGreen,
+        color: pro.isDarkMode ? Color(0xFF060E1E) : mintGreen,
         child: Center(child: Image.asset("assets/images/logo.png")),
       ),
     );
